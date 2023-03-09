@@ -173,19 +173,6 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script>
-        const scrolltip = document.querySelector("#scrolltip")
-        scrolltip.addEventListener("click", function() {
-            window.scrollTo({top: 0, left: 0, behavior:"smooth"})
-        })
-        window.addEventListener("scroll", function(){
-            if(window.scrollY >= 400) {
-                scrolltip.style.opacity = 1;
-            }
-            else{
-                scrolltip.style.opacity = 0;
-            }
-        })
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>
